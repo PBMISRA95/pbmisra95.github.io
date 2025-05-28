@@ -20,6 +20,7 @@
                 <a href="#about" class="nav-link">About</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#skills" class="nav-link">Skills</a>
+                <a href="#blog" class="nav-link">Blog</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="nav-toggle" id="nav-toggle">
@@ -208,6 +209,145 @@
         </div>
     </section>
 
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Articles & Insights</h2>
+            <p class="section-description">Thoughts on AI, Machine Learning, and Technology</p>
+            
+            <!-- Blog Filter -->
+            <div class="blog-filter">
+                <button class="filter-btn active" data-filter="all">All Posts</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="ai">AI & LLMs</button>
+                <button class="filter-btn" data-filter="tech">Technology</button>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="blog-grid" id="blogGrid">
+                <!-- Sample Blog Posts -->
+                <article class="blog-card" data-category="ai">
+                    <div class="blog-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">AI & LLMs</span>
+                            <span class="blog-date">Dec 15, 2024</span>
+                        </div>
+                        <h3 class="blog-title">Building Agentic Workflows with LangChain</h3>
+                        <p class="blog-excerpt">Exploring how to create intelligent multi-agent systems that can reason, plan, and execute complex tasks autonomously...</p>
+                        <div class="blog-engagement">
+                            <span><i class="fas fa-heart"></i> 87</span>
+                            <span><i class="fas fa-comment"></i> 23</span>
+                            <span><i class="fas fa-share"></i> 15</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="ml">
+                    <div class="blog-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Machine Learning</span>
+                            <span class="blog-date">Dec 10, 2024</span>
+                        </div>
+                        <h3 class="blog-title">AutoGluon for Production ML Pipelines</h3>
+                        <p class="blog-excerpt">How we achieved 94% accuracy in employee attrition prediction using AutoGluon's automated machine learning capabilities...</p>
+                        <div class="blog-engagement">
+                            <span><i class="fas fa-heart"></i> 142</span>
+                            <span><i class="fas fa-comment"></i> 34</span>
+                            <span><i class="fas fa-share"></i> 28</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="tech">
+                    <div class="blog-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Technology</span>
+                            <span class="blog-date">Dec 5, 2024</span>
+                        </div>
+                        <h3 class="blog-title">Scaling ML Models on AWS</h3>
+                        <p class="blog-excerpt">Best practices for deploying and scaling machine learning models using AWS services like SageMaker, Lambda, and EC2...</p>
+                        <div class="blog-engagement">
+                            <span><i class="fas fa-heart"></i> 96</span>
+                            <span><i class="fas fa-comment"></i> 18</span>
+                            <span><i class="fas fa-share"></i> 22</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="ai">
+                    <div class="blog-image">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">AI & LLMs</span>
+                            <span class="blog-date">Nov 30, 2024</span>
+                        </div>
+                        <h3 class="blog-title">RAG Systems with FAISS and Vector Search</h3>
+                        <p class="blog-excerpt">Implementing efficient retrieval-augmented generation systems for enterprise knowledge bases using FAISS vector search...</p>
+                        <div class="blog-engagement">
+                            <span><i class="fas fa-heart"></i> 78</span>
+                            <span><i class="fas fa-comment"></i> 16</span>
+                            <span><i class="fas fa-share"></i> 12</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="ml">
+                    <div class="blog-image">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Machine Learning</span>
+                            <span class="blog-date">Nov 25, 2024</span>
+                        </div>
+                        <h3 class="blog-title">Computer Vision in Manufacturing</h3>
+                        <p class="blog-excerpt">Using CNNs and Grad-CAM for glass fracture analysis in material testing - achieving interpretable AI in engineering...</p>
+                        <div class="blog-engagement">
+                            <span><i class="fas fa-heart"></i> 124</span>
+                            <span><i class="fas fa-comment"></i> 28</span>
+                            <span><i class="fas fa-share"></i> 31</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="tech">
+                    <div class="blog-image">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Technology</span>
+                            <span class="blog-date">Nov 20, 2024</span>
+                        </div>
+                        <h3 class="blog-title">Stable Diffusion + ControlNet Integration</h3>
+                        <p class="blog-excerpt">Building creative AI applications with Stable Diffusion and ControlNet for precise image generation and artistic content...</p>
+                        <div class="blog-engagement">
+                            <span><i class="fas fa-heart"></i> 156</span>
+                            <span><i class="fas fa-comment"></i> 42</span>
+                            <span><i class="fas fa-share"></i> 38</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="blog-actions">
+                <button class="btn btn-outline" id="loadMorePosts">Load More Posts</button>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -240,5 +380,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="chatbot.js"></script>
 </body>
 </html> 
