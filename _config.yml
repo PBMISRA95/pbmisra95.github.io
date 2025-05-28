@@ -1,5 +1,38 @@
-title: Priyabrat Mishra
-# logo: /assets/img/headshot_priyabrat.png
-# description: Machine Learning Engineer
-show_downloads: true
+title: Priyabrat Mishra - Machine Learning Engineer
+description: Portfolio of Priyabrat Mishra, Machine Learning Engineer specializing in AI-native systems, agentic workflows, and deep learning applications.
+author: Priyabrat Mishra
+email: priyabrat.mishra.official@gmail.com
+url: "https://pbmisra95.github.io"
+baseurl: ""
+
+# Social links
+linkedin_username: mishra-priyabrat
+github_username: pbmisra95
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+lang: en_US
+logo: /assets/img/logo.png
+
+# GitHub Pages settings
+show_downloads: false
+google_analytics: # Add your GA tracking ID here if needed
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
